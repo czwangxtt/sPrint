@@ -74,7 +74,7 @@ export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGat
     //If no filesNames, return 400
     if(!filesNames || filesNames.length === 0) return { statusCode: 400, body: JSON.stringify({ message: 'No derivatives found' }) };
     
-    const bucket = 'shl-bim-360-derivatives';
+    const bucket = 'aws-sam-cli-managed-default-samclisourcebucket-lct8mc6rbgrx';
     const outputName = 'output.zip';
 
     await zipFiles(filesNames, path, outputName);

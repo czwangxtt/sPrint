@@ -30,7 +30,7 @@ export async function downloadDerivatives(outputPath: string, urn: string, deriv
 
  async function getSignedUrlFromDerivative(urn: string, derivative: string, token: string) {
     try {
-        const url = `https://developer.api.autodesk.com/modelderivative/v2/designdata/${urn.replaceAll(
+        const url = `https://developer.api.autodesk.com/modelderivative/v2/designdata/${urn.replace(
             '=',
             '',
         )}/manifest/${derivative}/signedcookies?useCdn=true`;

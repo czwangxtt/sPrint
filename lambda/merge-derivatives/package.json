@@ -29,7 +29,7 @@
     "pdf-merger-js": "^4.3.0"
   },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.92",
+    "@types/aws-lambda": "^8.10.138",
     "@types/jest": "^29.2.0",
     "@types/node": "^18.11.4",
     "@typescript-eslint/eslint-plugin": "^5.10.2",
