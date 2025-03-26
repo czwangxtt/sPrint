@@ -13,7 +13,7 @@ export async function getDownloadUrlFromLambda(downloadObject: DownloadObject) {
   const payload = JSON.stringify(downloadObject);
 
   const params = {
-    FunctionName: "shl-bim360-MergeDerivativesFunction-ycta2AI0yUpz",
+    FunctionName: "shl-bim360-MergeDerivativesFunction-dDWAP47Isfnf",
     Payload: payload as any,
   };
 
